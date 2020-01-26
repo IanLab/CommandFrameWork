@@ -1,0 +1,5 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigDB.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigDB.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigDB.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigDB.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigDB.AssemblyInfo.cs

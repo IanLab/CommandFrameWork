@@ -1,0 +1,16 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderSqliteDb.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderSqliteDb.runtimeconfig.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderSqliteDb.runtimeconfig.dev.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderSqliteDb.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderSqliteDb.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderSqliteDb.genruntimeconfig.cache

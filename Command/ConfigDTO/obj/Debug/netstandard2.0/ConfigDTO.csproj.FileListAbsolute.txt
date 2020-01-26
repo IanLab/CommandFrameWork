@@ -1,0 +1,13 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\ConfigDTO.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\ConfigDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\ConfigDTO.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\bin\Debug\netstandard2.0\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDTO\obj\Debug\netstandard2.0\ConfigDTO.pdb

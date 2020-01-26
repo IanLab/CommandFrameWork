@@ -1,0 +1,4 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderDB.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\bin\Debug\netcoreapp3.1\OrderDB.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderDB.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDB\obj\Debug\netcoreapp3.1\OrderDB.AssemblyInfo.cs

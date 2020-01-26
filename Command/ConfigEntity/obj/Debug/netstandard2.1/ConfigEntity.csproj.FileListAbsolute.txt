@@ -1,0 +1,4 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.AssemblyInfo.cs

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MrJbDy+XOvzr2GzgD1mo/4tAkfWnTuv6vtXxlW/9GAgU/B056KlN30wwIjnCNGR0BxtwA1rlLSXkDpV80GChYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog\\4.6.8\\nlog.4.6.8.nupkg.sha512",
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog.config\\4.6.8\\nlog.config.4.6.8.nupkg.sha512",
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog.schema\\4.6.8\\nlog.schema.4.6.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FTsCdV5OTl8xDeA00v+KIOnjmR+6zeUAXFAHVWkRaYYgt9GDBUjZboYOad/C43taHIDvp3oHD4g/ze44uWCd1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog\\4.6.8\\nlog.4.6.8.nupkg.sha512",
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog.config\\4.6.8\\nlog.config.4.6.8.nupkg.sha512",
+    "C:\\Users\\Ian\\.nuget\\packages\\nlog.schema\\4.6.8\\nlog.schema.4.6.8.nupkg.sha512"
+  ],
+  "logs": []
+}

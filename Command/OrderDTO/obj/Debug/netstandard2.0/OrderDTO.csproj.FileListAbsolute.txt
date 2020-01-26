@@ -1,0 +1,13 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\OrderDTO.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\OrderDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\OrderDTO.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\bin\Debug\netstandard2.0\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderDTO\obj\Debug\netstandard2.0\OrderDTO.pdb

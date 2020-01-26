@@ -1,0 +1,13 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigSqliteDb.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigSqliteDb.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigSqliteDb.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.pdb
