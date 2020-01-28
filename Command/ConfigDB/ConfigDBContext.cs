@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ConfigEntity;
+using Microsoft.EntityFrameworkCore;
 
 namespace ConfigSqliteDb
 {

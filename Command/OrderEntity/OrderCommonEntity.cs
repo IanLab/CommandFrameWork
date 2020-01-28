@@ -17,5 +17,6 @@ namespace OrderEntity
         public string LastUpdatedUser { get; set; }
         public DateTime LastUpdateDateTime { get; set; }
         public bool IsDeleted { get; set; }
+        public string OrderType { get; set; }
     }
 }

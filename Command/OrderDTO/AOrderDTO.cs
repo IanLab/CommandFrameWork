@@ -4,7 +4,7 @@ using System;
 namespace OrderDTO
 {
 
-    public class OrderADTO: OrderBaseDTO
+    public class AOrderDTO: OrderBaseDTO
     {
         public string OrderAP1 { get; set; }
     }

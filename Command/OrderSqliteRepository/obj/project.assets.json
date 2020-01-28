@@ -1704,6 +1704,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "CommandCore": "1.0.0",
           "ConfigEntity": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",

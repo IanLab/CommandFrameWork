@@ -2,7 +2,7 @@
 
 namespace OrderEntity
 {
-    public class OrderBEntity
+    public class BOrderEntity
     {
         public Guid Id { get; set; }
         public double OrderBRate { get; set; }

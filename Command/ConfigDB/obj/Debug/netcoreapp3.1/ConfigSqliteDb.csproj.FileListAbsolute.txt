@@ -11,3 +11,4 @@ C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.csproj.CopyComplete
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.dll
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\obj\Debug\netcoreapp3.1\ConfigSqliteDb.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigDB\bin\Debug\netcoreapp3.1\ConfigEntity.dll

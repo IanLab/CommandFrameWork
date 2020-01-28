@@ -2,9 +2,9 @@
 
 namespace OrderEntity
 {
-    public class OrderAEntity
+    public class AOrderEntity
     {
         public Guid Id { get; set; }
-        public string OrderAP1 { get; set; }
+        public string AOrderP1 { get; set; }
     }
 }

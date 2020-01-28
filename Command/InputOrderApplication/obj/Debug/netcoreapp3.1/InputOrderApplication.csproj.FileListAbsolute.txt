@@ -1,0 +1,5 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\InputOrderApplication\obj\Debug\netcoreapp3.1\InputOrderApplication.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\InputOrderApplication\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\InputOrderApplication\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\InputOrderApplication\obj\Debug\netcoreapp3.1\InputOrderApplication_MarkupCompile.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\InputOrderApplication\obj\Debug\netcoreapp3.1\InputOrderApplication_MarkupCompile.lref

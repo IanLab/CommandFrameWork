@@ -9,55 +9,56 @@ using OrderEntity;
 using OrderSqliteDb;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Text;
 using System.Linq;
+using System.Diagnostics;
 
-namespace OrderSqliteRepository
+namespace  OrderSqliteRepository
 {
-    public sealed class OrderARepository : IEntityRepository
+    public sealed class BOrderRepository : IEntityRepository
     {
-        private readonly OrderADTO _OrderA;
+        private readonly BOrderDTO _OrderB;
         private readonly CustomerDTO _customer;
         private readonly DateTime _updateDatetime;
         private readonly string _updateUser;
 
         private readonly OrderCommonEntity _lastUpdatedOrderCommonEntity;
-        private readonly OrderAEntity _lastUpddatedOrderAEntity;
+        private readonly BOrderEntity _lastUpddatedOrderBEntity;
         private readonly OrderDbContext _orderDbContest;
         private readonly ConfigDbContext _configDbContext;
         private static readonly IMapper _mapper;
 
 
-        static OrderARepository()
+        static BOrderRepository()
         {
             var cfge = new MapperConfigurationExpression();
-            cfge.CreateMap<OrderAEntity, OrderADTO>();
-            cfge.CreateMap<OrderCommonEntity, OrderADTO>();
-            cfge.CreateMap<OrderADTO, OrderAEntity>();
-            cfge.CreateMap<OrderADTO, OrderCommonEntity>();
+            cfge.CreateMap<BOrderEntity, AOrderDTO>();
+            cfge.CreateMap<OrderCommonEntity, AOrderDTO>();
+            cfge.CreateMap<AOrderDTO, BOrderEntity>();
+            cfge.CreateMap<AOrderDTO, OrderCommonEntity>();
             var cfg = new MapperConfiguration(cfge);
             _mapper = new Mapper(cfg);
         }
 
-        public OrderARepository(OrderADTO updateEntity, 
+        public BOrderRepository(BOrderDTO updateEntity,
             IEnumerable<ICommandAble> references,
             DateTime updateDatetime,
-            string updateUser, 
+            string updateUser,
             OrderDbContext orderDbContext,
             ConfigDbContext configDbContext)
         {
-            _OrderA = updateEntity;
+            _OrderB = updateEntity;
             _customer = references.First() as CustomerDTO;
             _updateDatetime = updateDatetime;
             _updateUser = updateUser;
 
             _lastUpdatedOrderCommonEntity = _orderDbContest.OrderCommons
-                .SingleOrDefault(i => i.Id == _OrderA.Id);
-            _lastUpddatedOrderAEntity = _orderDbContest.OrderAs
-                .SingleOrDefault(i => i.Id == _OrderA.Id);
+                .SingleOrDefault(i => i.Id == _OrderB.Id);
+            _lastUpddatedOrderBEntity = _orderDbContest.BOrders
+                .SingleOrDefault(i => i.Id == _OrderB.Id);
 
-            Debug.Assert(_lastUpdatedOrderCommonEntity != null ? 
-                _lastUpddatedOrderAEntity != null : _lastUpddatedOrderAEntity == null);
+            Debug.Assert(_lastUpdatedOrderCommonEntity != null ?
+                _lastUpddatedOrderBEntity != null : _lastUpddatedOrderBEntity == null);
 
             _orderDbContest = orderDbContext;
             _configDbContext = configDbContext;
@@ -69,8 +70,8 @@ namespace OrderSqliteRepository
             {
                 if (_lastUpdatedOrderCommonEntity != null)
                 {
-                    var lastUpdated = _mapper.Map<OrderADTO>(_lastUpdatedOrderCommonEntity);
-                    _mapper.Map(_lastUpddatedOrderAEntity, lastUpdated);
+                    var lastUpdated = _mapper.Map<BOrderDTO>(_lastUpdatedOrderCommonEntity);
+                    _mapper.Map(_lastUpddatedOrderBEntity, lastUpdated);
                     return lastUpdated;
                 }
 
@@ -96,21 +97,22 @@ namespace OrderSqliteRepository
 
         public void Save()
         {
-            if(_lastUpdatedOrderCommonEntity != null)
+            if (_lastUpdatedOrderCommonEntity != null)
             {
-                _mapper.Map(_OrderA, _lastUpdatedOrderCommonEntity);
-                _mapper.Map(_OrderA, _lastUpddatedOrderAEntity);
+                _mapper.Map(_OrderB, _lastUpdatedOrderCommonEntity);
+                _mapper.Map(_OrderB, _lastUpddatedOrderBEntity);
                 _lastUpdatedOrderCommonEntity.LastUpdateDateTime = _updateDatetime;
-                _lastUpdatedOrderCommonEntity.LastUpdatedUser = _updateUser;                
+                _lastUpdatedOrderCommonEntity.LastUpdatedUser = _updateUser;
             }
             else
             {
-                var orderCommonEntity = _mapper.Map<OrderCommonEntity>(_OrderA);
+                OrderNoHelper.SetNo(_orderDbContest, _OrderB);
+                var orderCommonEntity = _mapper.Map<OrderCommonEntity>(_OrderB);
                 orderCommonEntity.LastUpdateDateTime = _updateDatetime;
                 orderCommonEntity.LastUpdatedUser = _updateUser;
-                var orderAEntity = _mapper.Map<OrderAEntity>(_OrderA);
+                var orderBEntity = _mapper.Map<BOrderEntity>(_OrderB);
                 _orderDbContest.OrderCommons.Add(orderCommonEntity);
-                _orderDbContest.OrderAs.Add(orderAEntity);
+                _orderDbContest.BOrders.Add(orderBEntity);
             }
 
             _orderDbContest.SaveChanges();
@@ -120,9 +122,9 @@ namespace OrderSqliteRepository
 
         private void Dispose(bool disposing)
         {
-            if(disposing)
+            if (disposing)
             {
-                if(!_disposed)
+                if (!_disposed)
                 {
                     _orderDbContest.Dispose();
                     _configDbContext.Dispose();
@@ -137,7 +139,7 @@ namespace OrderSqliteRepository
             GC.SuppressFinalize(this);
         }
 
-        ~OrderARepository()
+        ~BOrderRepository()
         {
             Dispose(false);
         }

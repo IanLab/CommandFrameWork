@@ -7,7 +7,7 @@ namespace OrderSqliteDb
     public class OrderDbContext : DbContext
     {
         public virtual DbSet<OrderCommonEntity> OrderCommons { get; set; }
-        public virtual DbSet<OrderAEntity> OrderAs { get; set; }
-        public virtual DbSet<OrderBEntity> OrderBs { get; set; }
+        public virtual DbSet<AOrderEntity> AOrders { get; set; }
+        public virtual DbSet<BOrderEntity> BOrders { get; set; } 
     }
 }

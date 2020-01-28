@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PBwTbe20pSC0a2NT/lJxjoWL+tx0G2NSvE8L0eE7dL36N4ftIvcqObN0yB7FgRWRt4MNvJLeKpz36QVJJIsp/w==",
+  "dgSpecHash": "qEDp2mGfHYW5037+/zEJkg2Z3tfTYeAzkNWJAKj1V0RJdFpNL99Ox7T64W1AIhLZ8deYM4SLUQmpL9k2XagNEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderSqliteRepository\\OrderSqliteRepository.csproj",
   "expectedPackageFiles": [

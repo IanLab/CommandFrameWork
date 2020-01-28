@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "b3oqzS6Tp6ljK0snzXWQK7gh4ARda1bC15U2tpgABlLyqPPaU68T7/XgSws+v3syu3+qWqTXub6JAXWHSFO1vQ==",
+  "dgSpecHash": "ZpyUHBITp7l/BE9cEWlLC2MLmger7bcTya30nRxrqWICakE2iVdQSTaCp5VZGODR2Ofeuf63zCYyCFziatcdUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ian\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.1\\microsoft.data.sqlite.core.3.1.1.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.1\\microsoft.dotnet.platformabstractions.3.1.1.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.1\\microsoft.entityframeworkcore.3.1.1.nupkg.sha512",
