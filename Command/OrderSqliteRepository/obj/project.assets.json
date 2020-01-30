@@ -1707,6 +1707,7 @@
           "AutoMapper": "9.0.0",
           "CommandCore": "1.0.0",
           "ConfigEntity": "1.0.0",
+          "Microsoft.Data.Sqlite.Core": "3.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6"
         },

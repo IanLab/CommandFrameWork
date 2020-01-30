@@ -1,0 +1,11 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigEntity.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigReader.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigSqliteDb.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigSqliteDb.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\bin\Debug\netcoreapp3.1\ConfigDTO.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\obj\Debug\netcoreapp3.1\ConfigSqliteReader.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\obj\Debug\netcoreapp3.1\ConfigSqliteReader.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigSqliteReader\obj\Debug\netcoreapp3.1\ConfigSqliteReader.AssemblyInfo.cs

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TuvD1qxy5PcejPcgyrOs/XbpfA0L25pxs7Oe87a28qAqplZUEX/4CZUI//sudGpef9xZwIAO+QcAp/hIfL2tPg==",
+  "dgSpecHash": "se8y4iUA8OYllaCekIs6uEepfXIZqzxqbVBF9/eWXrggmBvL5btdg36L2mrDhxZ2KJH2GReHF+Q7YyVCK87Qng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\ConfigSqliteRepository.csproj",
+  "projectFilePath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ian\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Ian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

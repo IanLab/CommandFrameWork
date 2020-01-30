@@ -7,7 +7,7 @@ using AutoMapper.Configuration;
 using ConfigEntity;
 using System.Linq;
 
-namespace ConfigSqliteRepository
+namespace SqliteRepository
 {
     public class CustomerRepository
     {

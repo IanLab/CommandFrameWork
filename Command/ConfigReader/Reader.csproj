@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfigDB\ConfigSqliteDb.csproj" />
     <ProjectReference Include="..\ConfigDTO\ConfigDTO.csproj" />
-    <ProjectReference Include="..\ConfigEntity\ConfigEntity.csproj" />
+    <ProjectReference Include="..\OrderDTO\OrderDTO.csproj" />
   </ItemGroup>
 
 </Project>

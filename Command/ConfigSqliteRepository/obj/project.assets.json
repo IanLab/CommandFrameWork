@@ -1707,6 +1707,7 @@
           "AutoMapper": "9.0.0",
           "CommandCore": "1.0.0",
           "ConfigEntity": "1.0.0",
+          "Microsoft.Data.Sqlite.Core": "3.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6"
         },
@@ -1715,6 +1716,47 @@
         },
         "runtime": {
           "bin/placeholder/ConfigSqliteDb.dll": {}
+        }
+      },
+      "OrderDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "CommandCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderDTO.dll": {}
+        }
+      },
+      "OrderEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "CommandCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderEntity.dll": {}
+        }
+      },
+      "OrderSqliteDb/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CommandCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",
+          "OrderEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderSqliteDb.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderSqliteDb.dll": {}
         }
       }
     }
@@ -5719,13 +5761,31 @@
       "type": "project",
       "path": "../ConfigDB/ConfigSqliteDb.csproj",
       "msbuildProject": "../ConfigDB/ConfigSqliteDb.csproj"
+    },
+    "OrderDTO/1.0.0": {
+      "type": "project",
+      "path": "../OrderDTO/OrderDTO.csproj",
+      "msbuildProject": "../OrderDTO/OrderDTO.csproj"
+    },
+    "OrderEntity/1.0.0": {
+      "type": "project",
+      "path": "../OrderEntity/OrderEntity.csproj",
+      "msbuildProject": "../OrderEntity/OrderEntity.csproj"
+    },
+    "OrderSqliteDb/1.0.0": {
+      "type": "project",
+      "path": "../OrderDB/OrderSqliteDb.csproj",
+      "msbuildProject": "../OrderDB/OrderSqliteDb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ConfigDTO >= 1.0.0",
       "ConfigEntity >= 1.0.0",
-      "ConfigSqliteDb >= 1.0.0"
+      "ConfigSqliteDb >= 1.0.0",
+      "OrderDTO >= 1.0.0",
+      "OrderEntity >= 1.0.0",
+      "OrderSqliteDb >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5735,9 +5795,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\ConfigSqliteRepository.csproj",
-      "projectName": "ConfigSqliteRepository",
-      "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\ConfigSqliteRepository.csproj",
+      "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj",
+      "projectName": "SqliteRepository",
+      "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj",
       "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\obj\\",
       "projectStyle": "PackageReference",
@@ -5766,6 +5826,15 @@
             },
             "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj": {
               "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj"
+            },
+            "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj": {
+              "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj"
+            },
+            "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj": {
+              "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj"
+            },
+            "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj": {
+              "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj"
             }
           }
         }

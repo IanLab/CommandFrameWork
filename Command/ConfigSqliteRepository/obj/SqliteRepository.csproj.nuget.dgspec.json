@@ -1,0 +1,537 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj",
+        "projectName": "CommandCore",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj",
+        "projectName": "ConfigSqliteDb",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj",
+        "projectName": "ConfigDTO",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj",
+        "projectName": "ConfigEntity",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj",
+        "projectName": "SqliteRepository",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\SqliteRepository.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigSqliteRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDB\\ConfigSqliteDb.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigDTO\\ConfigDTO.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\ConfigEntity\\ConfigEntity.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj",
+        "projectName": "OrderSqliteDb",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\OrderSqliteDb.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              },
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj",
+        "projectName": "OrderDTO",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\OrderDTO.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderDTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj",
+        "projectName": "OrderEntity",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\OrderEntity.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\OrderEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj": {
+                "projectPath": "C:\\Users\\Ian\\source\\repos\\CommandFrameWork\\Command\\Command\\CommandCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
