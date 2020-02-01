@@ -8,6 +8,7 @@ namespace OrderSqliteDb
 {
     public class OrderDbContext : DbContext
     {
+        public delegate OrderDbContext Factory(DateTime dt);
         public const string FileName = "OrderDbTemplate.sqlite";
         private readonly string _dbFilePath;
         public virtual DbSet<OrderCommonEntity> OrderCommons { get; set; }
@@ -45,11 +46,12 @@ namespace OrderSqliteDb
             return GetDbFilePath(DateTime.Now);
         }
 
-        public OrderDbContext(bool createTemplate = true)
+
+        public OrderDbContext(DateTime dt = default(DateTime))
         {
             var folder = GetDbFolder();
             var templateFile = Path.Combine(folder, FileName);
-            if(createTemplate)
+            if(dt == default)
             {
                 _dbFilePath = templateFile;
             }

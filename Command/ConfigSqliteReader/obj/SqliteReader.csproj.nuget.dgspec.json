@@ -385,6 +385,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

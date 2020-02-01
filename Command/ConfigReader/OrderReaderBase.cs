@@ -11,5 +11,7 @@ namespace Reader
         {
             return GetOrders(DateTime.Now);
         }
+
+        public abstract OrderBaseDTO GetOrder(Guid id, string orderTypeName);
     }
 }

@@ -25,10 +25,9 @@ namespace SqliteRepository
         private readonly AOrderEntity _lastUpddatedOrderAEntity;
         private readonly OrderDbContext _orderDbContest;
         private readonly ConfigDbContext _configDbContext;
-        private static readonly IMapper _mapper;
+        private static readonly IMapper _mapper = CreateMapper();
 
-
-        static AOrderRepository()
+        private static IMapper CreateMapper()
         {
             var cfge = new MapperConfigurationExpression();
             cfge.CreateMap<AOrderEntity, AOrderDTO>();
@@ -36,7 +35,7 @@ namespace SqliteRepository
             cfge.CreateMap<AOrderDTO, AOrderEntity>();
             cfge.CreateMap<AOrderDTO, OrderCommonEntity>();
             var cfg = new MapperConfiguration(cfge);
-            _mapper = new Mapper(cfg);
+            return new Mapper(cfg);
         }
 
         public AOrderRepository(AOrderDTO updateEntity, 

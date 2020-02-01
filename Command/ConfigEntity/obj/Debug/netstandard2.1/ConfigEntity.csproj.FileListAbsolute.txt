@@ -2,3 +2,12 @@ C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netsta
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.csproj.CoreCompileInputs.cache
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.AssemblyInfoInputs.cache
 C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\ConfigEntity.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\ConfigEntity.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\ConfigEntity.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\bin\Debug\netstandard2.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigEntity\obj\Debug\netstandard2.1\ConfigEntity.pdb

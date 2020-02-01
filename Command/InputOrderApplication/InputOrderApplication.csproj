@@ -7,13 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.0.0" />
     <PackageReference Include="AutoMapper" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Command\CommandCore.csproj" />
+    <ProjectReference Include="..\ConfigDB\ConfigSqliteDb.csproj" />
     <ProjectReference Include="..\ConfigDTO\ConfigDTO.csproj" />
+    <ProjectReference Include="..\ConfigEntity\ConfigEntity.csproj" />
+    <ProjectReference Include="..\ConfigReader\Reader.csproj" />
+    <ProjectReference Include="..\ConfigSqliteReader\SqliteReader.csproj" />
+    <ProjectReference Include="..\ConfigSqliteRepository\SqliteRepository.csproj" />
+    <ProjectReference Include="..\OrderDB\OrderSqliteDb.csproj" />
     <ProjectReference Include="..\OrderDTO\OrderDTO.csproj" />
+    <ProjectReference Include="..\OrderEntity\OrderEntity.csproj" />
   </ItemGroup>
 
 </Project>

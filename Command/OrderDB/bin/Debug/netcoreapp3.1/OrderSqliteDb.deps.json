@@ -10,7 +10,8 @@
         "dependencies": {
           "CommandCore": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.1",
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1"
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",
+          "OrderEntity": "1.0.0"
         },
         "runtime": {
           "OrderSqliteDb.dll": {}
@@ -385,6 +386,14 @@
         "runtime": {
           "CommandCore.dll": {}
         }
+      },
+      "OrderEntity/1.0.0": {
+        "dependencies": {
+          "CommandCore": "1.0.0"
+        },
+        "runtime": {
+          "OrderEntity.dll": {}
+        }
       }
     }
   },
@@ -647,6 +656,11 @@
       "hashPath": "system.text.json.4.7.0.nupkg.sha512"
     },
     "CommandCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderEntity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -2,3 +2,12 @@ C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstan
 C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.csproj.CoreCompileInputs.cache
 C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.AssemblyInfoInputs.cache
 C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\OrderEntity.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\OrderEntity.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\OrderEntity.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\bin\Debug\netstandard2.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\OrderEntity\obj\Debug\netstandard2.1\OrderEntity.pdb

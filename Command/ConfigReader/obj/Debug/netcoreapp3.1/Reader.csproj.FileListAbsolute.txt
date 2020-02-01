@@ -1,0 +1,17 @@
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\Reader.deps.json
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\Reader.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\Reader.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\CommandCore.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\ConfigDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\OrderDTO.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\ConfigDTO.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\OrderDTO.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\bin\Debug\netcoreapp3.1\CommandCore.pdb
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.csproj.CopyComplete
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.dll
+C:\Users\Ian\source\repos\CommandFrameWork\Command\ConfigReader\obj\Debug\netcoreapp3.1\Reader.pdb
